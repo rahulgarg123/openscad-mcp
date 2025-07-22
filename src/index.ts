@@ -134,7 +134,7 @@ class OpenSCADMCPServer {
       await fs.writeFile(inputFile, code, 'utf8');
 
       // Build command arguments: input file, --render flag, output file
-      const args = [inputFile, '--render', '--autocenter', '--viewall','--imgsize=320,240','--backend=manifold', '-o', outputPath];
+      const args = [inputFile, '--render', '--autocenter', '--viewall','--imgsize=640,480','--backend=manifold', '-o', outputPath];
 
       // Add camera parameters if provided
       if (camera) {
