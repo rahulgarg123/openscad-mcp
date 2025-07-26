@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides OpenSCAD rendering capabilities. This server allows you to render OpenSCAD code to PNG images through a standardized MCP interface.
 
+<a href="https://glama.ai/mcp/servers/@rahulgarg123/openscad-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@rahulgarg123/openscad-mcp/badge" alt="OpenSCAD Server MCP server" />
+</a>
+
 ## Features
 
 - **Headless OpenSCAD Rendering**: Execute OpenSCAD code and generate PNG images without a GUI
@@ -38,7 +42,6 @@ A Model Context Protocol (MCP) server that provides OpenSCAD rendering capabilit
 By default, the server looks for OpenSCAD at `/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD` (macOS path). You can customize this by setting the `OPENSCAD_BINARY` environment variable.
 
 ## Usage as MCP Server in Gemini-cli
-
 
 In your gemini settings.json file, e.g., `~/.gemini/settings.json`, add the following:
 
@@ -154,7 +157,6 @@ module unique_planter(
 
 unique_planter();
 ```
-
 
 ## Testing
 
